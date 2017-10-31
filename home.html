@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    <h1> HOME, RECENT ACTIVITIES </h1>
+    <title> HOME, RECENT ACTIVITIES </title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900'
+      rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 
 	<body>
+    <header> <h1> HOME </h1> </header>
     <div>
       <p> <a href="userSettings.html"> User Settings </a></p>
       <p> <a href="eventCreation.html"> (Quick) Create Event </a></p>
     </div>
 
-    <div>
-			<p> Home </p>
-			<p> <a href="messages.html"> Messages </a></p>
-			<p> <a href="familyTree.html"> Family Tree </a></p>
-      <p> <a href="calendar.html"> Calendar </a></p>
-		</div>
+    <nav>
+      <div class="nav-li">
+        <img class="thumbnail" src="images/navHomeIcon.png">
+      </div>
+			<div class="nav-li">
+        <a href="messages.html"> <img class="thumbnail" src="images/navMsgIcon.png"> </a>
+      </div>
+      <div class="nav-li">
+			  <a href="familyTree.html"> <img class="thumbnail" src="images/navFamTreeIcon.png"> </a>
+      </div>
+      <div class="nav-li">
+        <a href="calendar.html"> <img class="thumbnail" src="images/navCalndrIcon.png"> </a>
+      </div>
+		</nav>
 
     <p> <a href="login.html"> Logout </a></p>
 	</body>
