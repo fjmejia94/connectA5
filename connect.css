@@ -5,3 +5,15 @@
 	text-align: center;
 }
 
+#actContainer {
+	border-style: solid;
+	border-color: black;
+	padding-top: 80%;
+	padding-bottom: 10%;
+	margin-bottom: 1px;
+	text-align: left;
+}
+
+#actItem {
+	font-size: 100%;
+}
