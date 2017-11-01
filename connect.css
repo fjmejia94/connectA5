@@ -7,16 +7,13 @@
 	bottom: 0;
 }
 
-<<<<<<< HEAD
 #pageHeader {
 	font-size: 96px;
 	font-weight: bold;
 	text-align: center;
 }
 
-body, html {
-  height: 100%;
-}
+
 
 #space {
   height: 5%;
@@ -88,7 +85,7 @@ body, html {
 	color: white;
 	font-size: 64px;
 }
-=======
+
 #actContainer {
 	border-style: solid;
 	border-color: black;
@@ -101,4 +98,4 @@ body, html {
 #actItem {
 	font-size: 100%;
 }
->>>>>>> 2ffe7875909006800c0b41931952b554b0dd3b48
+
