@@ -7,6 +7,7 @@
 	bottom: 0;
 }
 
+<<<<<<< HEAD
 #pageHeader {
 	font-size: 96px;
 	font-weight: bold;
@@ -87,3 +88,17 @@ body, html {
 	color: white;
 	font-size: 64px;
 }
+=======
+#actContainer {
+	border-style: solid;
+	border-color: black;
+	padding-top: 80%;
+	padding-bottom: 10%;
+	margin-bottom: 1px;
+	text-align: left;
+}
+
+#actItem {
+	font-size: 100%;
+}
+>>>>>>> 2ffe7875909006800c0b41931952b554b0dd3b48
