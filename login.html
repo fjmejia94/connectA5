@@ -2,22 +2,24 @@
 <html>
 	<head>
 	</head>
-		<h1>LOGIN</h1>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="logincss.css">
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="logincss.css">
 	<body>
-		<p> <a href="home.html"> Log in! </a> </p>
 		<div id="loginBox">
-			<div id="loginCircle"></div>
+			<div id="loginCircle">
+				<div id="innerLoginCircle"></div>
+			</div>
 			<div>
 				<input id="loginInput" type="text" name="PhoneNum" value="XXX-XXXX">
-				<p style="text-align:center"> phone number </p>
+				<p style="text-align:center;color:gray"> phone number </p>
 				<input id="loginInput" type="password" name="Password" value="password">
+				<p style="text-align:center;color:gray"> password </p>
 			</div>
-		 	<a href="index.html"> Already have an account-> </a>
+		 	<p style="text-align:center"> <a href="index.html"> Already have an account-> </a></p>
 		</div>
 	</body>
 </html>

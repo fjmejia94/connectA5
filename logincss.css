@@ -1,3 +1,7 @@
+body {
+  background-color:#35407a;
+}
+
 /* Graphic box on login screen */
 #loginBox {
     border-radius: 25px;
@@ -8,7 +12,7 @@
     height: 500px;
 		margin:auto;
 		position:relative;
-		margin-top:60%;
+		margin-top:20%;
 }
 
 /* Part of the graphic box on login sceren */
@@ -23,6 +27,18 @@
 	position:relative;
 }
 
+/* Part of the graphic box on login sceren */
+#innerLoginCircle {
+	width: 220px;
+	height: 220px;
+	background: #9cb7e2;
+	-webkit-border-radius: 125px;
+	z-index:11;
+	margin:auto;
+  top:7%;
+	position:relative;
+}
+
 /* Formatting of the input for login user info */
 #loginInput {
 	font-size: 29px;
@@ -33,11 +49,8 @@
   margin-bottom: 0px;
   margin-top: 0px;
   padding: 5px 50px;
-  border-radius: 35%;
+  border: 5px solid white;
+  border-radius: 15%;
   box-sizing: border-box;
 
-}
-
-body {
-  background-color:#35407a;
 }
