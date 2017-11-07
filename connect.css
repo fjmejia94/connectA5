@@ -100,33 +100,3 @@
 .actItem {
 	font-size: 64px;
 }
-
-/* Graphic box on login screen */
-#loginBox {
-    border-radius: 25px;
-    background: #93ead3;
-    padding: 20px;
-    width: 400px;
-    height: 500px;
-		margin:auto;
-		position:relative;
-		margin-top:60%;
-}
-
-/* Part of the graphic box on login sceren */
-#loginCircle {
-	width: 250px;
-	height: 250px;
-	background: #93ead3;
-	-webkit-border-radius: 125px;
-	z-index:10;
-	margin:auto;
-	top:-30%;
-	position:relative;
-}
-
-/* Formatting of the input for login user info */
-#loginInput {
-	font-size: 29px;
-	color: #c9d7e5;
-}
