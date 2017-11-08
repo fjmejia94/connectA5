@@ -1,0 +1,38 @@
+body {
+  background-color: #98eadf;
+}
+#msgBanner{
+  height: 100px;
+  width: 100%;
+  background-color: #41596b;
+  margin-top: 5%;
+}
+
+#bannerText{
+  font-size: 30px;
+  position: relative;
+  top: 25%;
+  color: white;
+  font-weight: bold;
+}
+
+#recipientBanner{
+  height:90px;
+  width: 100%;
+  background-color: white;
+  margin-top: 0%;
+}
+
+#rbText{
+  font-size:25px;
+  position: relative;
+  top:30%;
+  margin-left: 30px;
+}
+
+#addRecip{
+  width: 5%;
+  margin-left: 91%;
+  position: relative;
+  margin-top: -3%;
+}
