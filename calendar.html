@@ -1,7 +1,6 @@
 <DOCTYPE! html>
 <html>
 	<head>
-		<h1> CALENDAR </h1>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="connect.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -9,8 +8,71 @@
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 
-	<body>
+	<body id="calendarBack">
 
+		<div class="col-xs-12">
+			<p id="pageHeader"> Calendar </p>
+		</div>
+
+		<div class="month">      
+		  <ul>
+		    <li>
+		      <span style="font-size:48px">2017</span> <br>
+		      <p id="month">November</p>
+		    </li>
+		  </ul>
+		</div>
+
+		<ul class="weekdays">
+		  <li>Mo</li>
+		  <li>Tu</li>
+		  <li>We</li>
+		  <li>Th</li>
+		  <li>Fr</li>
+		  <li>Sa</li>
+		  <li>Su</li>
+		</ul>
+
+		<ul class="days">  
+		  <li>1</li>
+		  <li>2</li>
+		  <li>3</li>
+		  <li>4</li>
+		  <li>5</li>
+		  <li>6</li>
+		  <li>7</li>
+		  <li>8</li>
+		  <li>9</li>
+		  <li><span class="active">10</span></li>
+		  <li>11</li>
+		  <li>12</li>
+		  <li>13</li>
+		  <li>14</li>
+		  <li>15</li>
+		  <li>16</li>
+		  <li>17</li>
+		  <li>18</li>
+		  <li>19</li>
+		  <li>20</li>
+		  <li>21</li>
+		  <li>22</li>
+		  <li>23</li>
+		  <li>24</li>
+		  <li>25</li>
+		  <li>26</li>
+		  <li>27</li>
+		  <li>28</li>
+		  <li>29</li>
+		  <li>30</li>
+		  <li>31</li>
+		</ul>
+
+		<div id="eventInDay" class="col-xs-12"> 
+			<p id="eventsTitle"> Events for Day </p>
+			<p id="dayContent"> 1:00pm -- Take Amy to dentist </p>
+			<p id="dayContent"> 6:00pm -- Shopping for groceries </p>
+			<p id="dayContent"> 8:00pm -- Gym </p>
+		</div>
 
 		<div class="col-xs-12" id="bottomNav">
 				<div class="col-xs-3">
